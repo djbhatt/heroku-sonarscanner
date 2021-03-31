@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# bin/detect <build-dir>
+# bin/use <build-dir>
 
-echo 'sonar-scanner'
-exit 0
+# TODO: find a better way to detect Sonar apps
+echo "SonarQube" && exit 0
